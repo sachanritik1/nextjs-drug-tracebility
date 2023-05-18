@@ -1,15 +1,29 @@
 * {
-    background-color: #aed6f1;
+    background-color: rgb(213, 210, 229);
     font-size: small;
 }
 
 .app h1 {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
     font-size: 30px;
-    color: #773dbc;
+    color: #000000;
+}
+.app h2 {
+    padding-top: 150px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .app nav h2 {
     font-size: 20px;
     color: black;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 /*
 .app nav {
@@ -58,23 +72,30 @@
 .app input {
     width: 40%;
     height: 30px;
-    padding: 12px 20px;
+
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 4px;
-    background-color: #e7b2be;
+    background-color: rgb(196, 206, 255);
     font-size: 16px;
     resize: none;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 .app .btn {
-    padding: 12px 20px;
+    width: 40%;
+    margin: 0 auto;
+    display: block;
     font-size: 20px;
+
+    height: 30px;
+    background-color: black;
+    color: #ff004f;
 }
 .app h3 {
     font-size: 30px;
-    color: #ff004f;
-}
-
-.app .header-text h1 span {
     color: #ff004f;
 }

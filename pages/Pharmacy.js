@@ -29,7 +29,7 @@ export default function Pharmacy() {
 
     return (
         <div className="container mx-auto">
-            <h1 className="py-4 px-4 font-bold text-2xl"></h1>
+            <h2>DRUG RECEIVED BY PHARMACY ?</h2>
             <div className="flex flex-wrap">
                 {isWeb3Enabled ? (
                     <div>
@@ -41,8 +41,7 @@ export default function Pharmacy() {
                                     value={drugId}
                                     onChange={(event) => setDrugId(event.target.value)}
                                 />
-                                <br>
-                                </br>
+                                <br></br>
                                 <button class="btn">Recieve Drug</button>
                             </form>
                         </div>

@@ -89,7 +89,7 @@ export default function Home() {
             <div className="flex flex-wrap">
                 {isWeb3Enabled ? (
                     <div>
-                        <h1>User Registration</h1>
+                        <h2>User Registration</h2>
                         <h2>Select the Role of the user:</h2>
                         <select value={selectedRole} onChange={handleRoleChange}>
                             <option value="">Select...</option>

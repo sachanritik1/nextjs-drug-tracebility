@@ -35,10 +35,9 @@ export default function Manufacturer() {
     }
 
     return (
-        
         <div class="manufacturer">
-            <h1 > </h1>
-            <div >
+            <h2> DRUG IS MANUFACTURED? </h2>
+            <div>
                 {isWeb3Enabled ? (
                     <form onSubmit={() => createDrug(drugName, drugQuantity)}>
                         <input
@@ -46,7 +45,6 @@ export default function Manufacturer() {
                             placeholder="Drug name"
                             value={drugName}
                             onChange={(event) => setDrugName(event.target.value)}
-                            
                         />
                         <br></br>
                         <input
