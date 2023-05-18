@@ -32,9 +32,9 @@ export default function Home() {
     }
 
     return (
-        <div className="container mx-auto">
+        <div>
             <h1 className="py-4 px-4 font-bold text-2xl"></h1>
-            <div className="flex flex-wrap">
+            <div>
                 {isWeb3Enabled ? (
                     <div>
                         <div>
@@ -45,7 +45,8 @@ export default function Home() {
                                     value={drugId}
                                     onChange={(event) => setDrugId(event.target.value)}
                                 />
-                                <button>Verify Drug</button>
+                                <br></br>
+                                <button class="btn">Verify Drug</button>
                             </form>
                         </div>
                     </div>
