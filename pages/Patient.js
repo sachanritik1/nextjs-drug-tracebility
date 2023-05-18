@@ -45,7 +45,7 @@ export default function Home() {
                                     value={drugId}
                                     onChange={(event) => setDrugId(event.target.value)}
                                 />
-                                <button>Buy Drug</button>
+                                <button>Verify Drug</button>
                             </form>
                         </div>
                     </div>
