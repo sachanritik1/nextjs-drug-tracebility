@@ -14,7 +14,7 @@ export default function Home() {
             <h1 className="py-4 px-4 font-bold text-2xl"></h1>
             <div className="flex flex-wrap">
                 {isWeb3Enabled ? (
-                    <div>web3 is enabled</div>
+                    <div><h3>web3 is enabled</h3></div>
                 ) : (
                     <div>Web3 Currently Not Enabled</div>
                 )}

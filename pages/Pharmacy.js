@@ -41,7 +41,9 @@ export default function Pharmacy() {
                                     value={drugId}
                                     onChange={(event) => setDrugId(event.target.value)}
                                 />
-                                <button>Recieve Drug</button>
+                                <br>
+                                </br>
+                                <button class="btn">Recieve Drug</button>
                             </form>
                         </div>
                     </div>

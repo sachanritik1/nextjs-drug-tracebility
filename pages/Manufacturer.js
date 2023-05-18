@@ -1,4 +1,5 @@
 //create a basic component called Manufacturer
+
 import { useWeb3Contract, useMoralis } from "react-moralis"
 import { useState } from "react"
 import supplyChainAbi from "../constants/SupplyChain.json"
@@ -34,9 +35,10 @@ export default function Manufacturer() {
     }
 
     return (
-        <div className="container mx-auto">
-            <h1 className="py-4 px-4 font-bold text-2xl"></h1>
-            <div className="flex flex-wrap">
+        
+        <div class="manufacturer">
+            <h1 > </h1>
+            <div >
                 {isWeb3Enabled ? (
                     <form onSubmit={() => createDrug(drugName, drugQuantity)}>
                         <input
@@ -44,6 +46,7 @@ export default function Manufacturer() {
                             placeholder="Drug name"
                             value={drugName}
                             onChange={(event) => setDrugName(event.target.value)}
+                            
                         />
                         <br></br>
                         <input
@@ -54,7 +57,7 @@ export default function Manufacturer() {
                         />
                         <br></br>
 
-                        <button>Create Drug</button>
+                        <button class="btn">Create Drug</button>
                     </form>
                 ) : (
                     <div>Web3 Currently Not Enabled</div>
