@@ -1,12 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.container {
-    @apply bg-gray-100;
-    backgraound-image: url("https://picsum.photos/200/300");
-}
-
-.app {
-    @apply bg-gray-100;
-}
