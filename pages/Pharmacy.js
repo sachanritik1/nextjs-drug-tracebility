@@ -29,7 +29,7 @@ export default function Pharmacy() {
 
     return (
         <div className="container mx-auto">
-            <h2>DRUG RECEIVED BY PHARMACY ?</h2>
+            <h2>DRUG RECEIVED BY PHARMACY </h2>
             <div className="flex flex-wrap">
                 {isWeb3Enabled ? (
                     <div>

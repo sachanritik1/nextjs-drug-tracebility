@@ -28,7 +28,7 @@ export default function Distributor() {
 
     return (
         <div>
-            <h2>DRUG IS DISTRIBUTED?</h2>
+            <h2>DRUG IS DISTRIBUTED</h2>
             <div>
                 {isWeb3Enabled ? (
                     <div>

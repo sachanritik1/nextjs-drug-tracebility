@@ -99,3 +99,10 @@
     font-size: 30px;
     color: #ff004f;
 }
+.app .reg {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+
+    color: #ff004f;
+}

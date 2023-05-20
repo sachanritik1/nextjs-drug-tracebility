@@ -37,7 +37,7 @@ export default function Home() {
             <div>
                 {isWeb3Enabled ? (
                     <div>
-                        <h2>DRUG IS VERIFIED?</h2>
+                        <h2>DRUG IS VERIFIED</h2>
                         <div>
                             <form onSubmit={() => buyDrug(drugId)}>
                                 <input

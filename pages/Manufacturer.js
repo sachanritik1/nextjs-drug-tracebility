@@ -36,7 +36,7 @@ export default function Manufacturer() {
 
     return (
         <div class="manufacturer">
-            <h2> DRUG IS MANUFACTURED? </h2>
+            <h2> DRUG IS MANUFACTURED </h2>
             <div>
                 {isWeb3Enabled ? (
                     <form onSubmit={() => createDrug(drugName, drugQuantity)}>

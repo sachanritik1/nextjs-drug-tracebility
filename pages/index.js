@@ -88,7 +88,7 @@ export default function Home() {
             <h1 className="py-4 px-4 font-bold text-2xl"></h1>
             <div className="flex flex-wrap">
                 {isWeb3Enabled ? (
-                    <div>
+                    <div className="reg">
                         <h2>User Registration</h2>
                         <h2>Select the Role of the user:</h2>
                         <select value={selectedRole} onChange={handleRoleChange}>
@@ -106,7 +106,9 @@ export default function Home() {
                         />
                         <br />
 
-                        <button onClick={() => handleClick()}>Submit</button>
+                        <button class="btn" onClick={() => handleClick()}>
+                            Submit
+                        </button>
                     </div>
                 ) : (
                     <div>Web3 Currently Not Enabled</div>
