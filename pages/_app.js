@@ -15,11 +15,15 @@ const client = new ApolloClient({
 function MyApp({ Component, pageProps }) {
     return (
         <div className="app">
-            <Head>
+            <Head> 
+              
+                    
                 <title>Drug-Tracebility</title>
                 <meta name="description" content="NFT Marketplace" />
                 <link rel="icon" href="/favicon.ico" />
+            
             </Head>
+            
             <MoralisProvider initializeOnMount={false}>
                 <ApolloProvider client={client}>
                     <NotificationProvider>
@@ -28,6 +32,7 @@ function MyApp({ Component, pageProps }) {
                     </NotificationProvider>
                 </ApolloProvider>
             </MoralisProvider>
+           
         </div>
     )
 }

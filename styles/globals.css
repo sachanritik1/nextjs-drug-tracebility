@@ -1,3 +1,80 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+* {
+    background-color: #aed6f1;
+    font-size: small;
+}
+
+.app h1 {
+    font-size: 30px;
+    color: #773dbc;
+}
+.app nav h2 {
+    font-size: 20px;
+    color: black;
+}
+/*
+.app nav {
+    padding: 20px;
+    display: inline-block;
+}
+  
+
+.app input{
+    color: rgb(0, 204, 255);
+    background-color: rgb(218, 170, 110);
+    size: 50px;
+}*/
+.app nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.app .nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.app .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+.app .nav ul li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.app .nav ul li a:hover::after {
+    width: 100%;
+}
+.app input {
+    width: 40%;
+    height: 30px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #e7b2be;
+    font-size: 16px;
+    resize: none;
+}
+.app .btn {
+    padding: 12px 20px;
+    font-size: 20px;
+}
+.app h3 {
+    font-size: 30px;
+    color: #ff004f;
+}
+
+.app .header-text h1 span {
+    color: #ff004f;
+}

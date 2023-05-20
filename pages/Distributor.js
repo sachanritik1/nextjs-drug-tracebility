@@ -27,9 +27,9 @@ export default function Distributor() {
     }
 
     return (
-        <div className="container mx-auto">
-            <h1 className="py-4 px-4 font-bold text-2xl"></h1>
-            <div className="flex flex-wrap">
+        <div >
+            
+            <div >
                 {isWeb3Enabled ? (
                     <div>
                         <div>
@@ -40,7 +40,8 @@ export default function Distributor() {
                                     value={drugId}
                                     onChange={(event) => setDrugId(event.target.value)}
                                 />
-                                <button>Ship Drug</button>
+                                <br></br>
+                                <button class="btn">Ship Drug</button>
                             </form>
                         </div>
                     </div>
